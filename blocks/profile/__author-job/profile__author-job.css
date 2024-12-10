@@ -1,0 +1,25 @@
+.profile__author-job {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0;
+  max-width: 294px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 900px) {
+  .profile__author-job {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .profile__author-job {
+    font-size: 16px;
+    max-width: 292px;
+  }
+}
+

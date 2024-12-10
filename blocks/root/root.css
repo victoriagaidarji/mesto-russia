@@ -1,0 +1,24 @@
+:root{
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1280px;
+  min-width: 320px;
+  width: 100%;
+  font-family: 'inter', 'Arial', sans-serif;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+
+
+@media screen and (max-width: 900px) {
+  :root {
+      margin: 36px auto 48px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .root {
+      margin: 28px auto 36px;
+  }
+}

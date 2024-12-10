@@ -1,0 +1,23 @@
+.profile__content {
+  display: flex;
+  right: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .profile__content {
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+  }
+}
+
+@media (max-width: 680px) {
+  .profile__content {
+    gap: 10px;
+    max-width: 292px;
+  }
+}
